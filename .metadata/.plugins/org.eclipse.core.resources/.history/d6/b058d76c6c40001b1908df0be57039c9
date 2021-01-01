@@ -1,0 +1,9 @@
+package com.in28min.rest.webservices.restfulwebservices.employee;
+
+public class UserNotFoundException extends RuntimeException {
+
+	public UserNotFoundException(String exception) {
+		super(exception);
+	}
+
+}
